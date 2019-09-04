@@ -31,7 +31,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
       a = 5 ;
       p = console.log ;
       q = console.clear || false;
-      b = "by 青绾( yangx14488@foxmail.com )\n试试吧，解锁是 unlock( ) 哦" ;
+      b = "by 青绾( yangx14488@foxmail.com )\n这里写你想让调试者看到的文本，请保留作者署名好不好" ;
       c = function ( ) { return new Date } ;
       h = function ( ) { while ( g-->a>>6 ) ( function( ){ } )[ "constructor" ]( "/*\n"+b+"\n*/\ndebugger;" )( ) } ;
       e = function ( z ) { if ( typeof z !== "boolean" ) z = false ; return ( ( d = z ) || ( f = c( g = a ) , h( ) , e( c( ) - f < a+1 ) ) ) } ;
