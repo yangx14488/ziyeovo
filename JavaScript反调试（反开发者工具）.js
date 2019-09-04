@@ -18,14 +18,12 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
  *
  * 所有的函数可能都会多次触发，因为谁也不知道破解者到底会开启多少次控制台
  */
- /* anti-developer-tools
+ /* anti-developer-tools version.1.0a
   * by 青绾( yangx14488@foxmail.com )
   *
   * mod.n : funcion, Called when the console is open
   * mod.f : funcion, Called when the console is close
   * mod.warn : function, If the hacker has enabled the "deactivate breakpoints"...
-  *
-  * 所有的函数可能都会多次触发，因为谁也不知道破解者到底会开启多少次控制台
   */
   ( function( ){
     function anti_developer_tools ( mod ) {
